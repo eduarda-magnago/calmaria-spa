@@ -21,7 +21,7 @@ header{
             }
             a{
                 text-decoration: none;
-                @include mixins.ff-fs-cl(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria)
+                @include mixins.ff-fs-cl(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria);
                 font-weight: 500;
             }
         }
@@ -36,7 +36,7 @@ header{
             max-width: 464px;
             h1{
                 font-size: 42px;
-                color: $cor-primaria;
+                color: variaveis.$cor-primaria;
                 margin-bottom: 2rem;
                 font-family: variaveis.$ft-titulos;
                 span{
