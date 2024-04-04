@@ -31,6 +31,11 @@ header nav ul a {
   font-size: 1rem;
   color: #0C0421;
   font-weight: 500;
+  transition: 0.3s;
+}
+header nav ul a:hover {
+  transform: scale(1.2);
+  font-weight: 700;
 }
 header #home {
   max-width: 1040px;
@@ -41,7 +46,7 @@ header #home {
   justify-content: space-between;
 }
 header #home .textos-home {
-  max-width: 464px;
+  width: 464px;
 }
 header #home .textos-home h1 {
   font-size: 42px;
@@ -51,6 +56,20 @@ header #home .textos-home h1 {
 }
 header #home .textos-home h1 span {
   color: #4e75ff;
+}
+header #home .textos-home .btn-main {
+  width: 280px;
+  height: 66px;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 66px;
+  background: #CAD4FA;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+header #home .textos-home .btn-main:hover {
+  background: #4e75ff;
 }
 header #home .img-home {
   max-width: 474px;
@@ -222,7 +241,7 @@ header #home .img-home img {
   font-weight: bold;
 }
 #contatos .contatos-form .inputs .btn {
-  background: #cad4fa;
+  background: #CAD4FA;
   margin-top: 2rem;
   color: white;
   font-size: 1rem;
@@ -234,7 +253,7 @@ header #home .img-home img {
 }
 
 footer {
-  background: #e8f5c8;
+  background: #E8F5C8;
   padding: 2rem;
   text-align: center;
   margin-top: 5rem;
